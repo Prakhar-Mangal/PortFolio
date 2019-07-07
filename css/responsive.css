@@ -5,9 +5,10 @@
 	}
 }
 @media only screen and (max-width: 1440px) {
-	.welcome-title {
+	.welcome-title span{
 		font-size: 100px;
 		margin-bottom:20px;
+		display: inline;
 	}
 	.next-section {
 	/*	bottom: auto; */
@@ -86,6 +87,7 @@
 	}
 	.welcome-title {
 		font-size:80px;
+		display: inline;
 	}
 	.welcome-title:after {
 		margin-top:15px;
