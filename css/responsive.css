@@ -85,9 +85,8 @@
 	.about-img {
 		margin-right:0;
 	}
-	.welcome-title {
+	.welcome-title span{
 		font-size:80px;
-		display: inline;
 	}
 	.welcome-title:after {
 		margin-top:15px;
@@ -273,7 +272,7 @@
 		top: 100%;
 		display:none;
 	}
-	.welcome-title {
+	.welcome-title span{
 		font-size: 60px;
 		margin-bottom:20px;
 	}
@@ -355,7 +354,7 @@
 	}
 }
 @media only screen and (max-width: 575px) {
-	.welcome-title {
+	.welcome-title span{
 		font-size: 40px;
 	}
 	.welcome-first {
